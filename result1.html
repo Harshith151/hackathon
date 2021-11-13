@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TUTOR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background:url(https://image.freepik.com/free-photo/mockup-laptop-computer-white-top-table-with-blur-background_44344-1977.jpg)
+      no-repeat center center fixed;
+      background-size: cover;
+       }
+* {box-sizing: border-box;
+border-radius: 12px;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 1px;
+  opacity: 0.8;
+  box-sizing: border-box;
+      box-shadow: 0 16px 26px gray;
+      border-radius: 20px;
+}
+
+.icon {
+  padding: 10px;
+  background: linear-gradient(to right,#755bea,#ff72c0);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+
+}
+
+/* Set a style for the submit button */
+.btn {
+  background: linear-gradient(to right,#755bea,#ff72c0);
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  margin-top:9px;
+  margin-left:140px;
+  
+}
+
+.btn:hover {
+  opacity: 1;
+ 
+}
+.no
+{
+  padding-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+  <h2 style="text-align:center; color:purple;margin-top: 40px;font-family: Dancing Script;font-size: 40px;"><b>Sign Up</b></h2>
+  <div class="no">
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username*" name="usrnm" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password*" name="Password" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Confirm Password*" name="Confirm Password" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="email" placeholder="Email*" name="email" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-phone icon"></i>
+    <input class="input-field" type="number" placeholder="Phone Number*" name="Phone Number" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-user-circle icon"></i>
+    <input class="input-field" type="text" placeholder="Gender*" name="gender" required>
+  </div>
+  
+   <div class="input-container">
+    <i class=" fa fa-calendar icon"></i>
+    <input class="input-field" type="date" placeholder="DOB*" name="DOB" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-building icon"></i>
+    <input class="input-field" type="text" placeholder="City*" name="City" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-university icon"></i>
+    <input class="input-field" type="text" placeholder="College*" name="College" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-id-badge icon"></i>
+    <input class="input-field" type="text" placeholder="USN*" name="USN" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-book icon"></i>
+    
+    <select style="color: grey;border: 1px solid black" class="input-field" name="Subject">
+    <option value="Subject interested to learn" selected>Subject interested to teach*</option>
+    <option value="Computer Organization">Computer Organization</option>
+    <option value="Operating System">Operating System</option>
+    <option value="Design and Ananlysis of Algorithms">Design and Ananlysis of Algorithms</option>
+    <option value="Logic Design">Logic Design</option>
+    <option value="Microcontrollers">Microcontrollers</option>
+    <option value="Microwaves and Radar">Microwaves and Radar</option>
+    <option value="Basic Thermodynamics">Basic Thermodynamics</option>
+    <option value="Kinematics of Machines">Kinematics</option>
+    <option value="Fluid Mechanics">Fluid Mechanics</option>
+    <option value="Building Planning and Drawing">Building Planning and Drawing</option>
+  </select>
+  </div>
+ 
+  <button type="submit" class="btn"><a href="signup.html" target="_blank" style="text-decoration: none;color:white;">Sign Up</a></button>
+</form>
+
+<p style="text-align:center;">Already have an account?<a href="login.html" target="_blank">Log In</a></p>
+</div>
+  
+
+</body>
+</html>
